@@ -100,12 +100,13 @@ footer p {
     padding-top: 50px;
     padding-bottom: 50px;
     border: solid black;
-    margin-right: 55%;
-    margin-left: 41%;
+    min-width: 150px;
+    max-width: 250px;
+    margin: auto;
     font-style: italic ;
     border-radius: 10%;
     box-shadow: 5px 5px 5px 5px black;
-    min-width: 320px;
+    
 }
 #titu {
     font-size: 40px;
