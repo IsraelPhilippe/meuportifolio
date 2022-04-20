@@ -1,0 +1,117 @@
+body{
+    color: white;
+    background-color: #0A63BC;
+    font-family: Arial, Helvetica, sans-serif;
+}
+a {
+    color: white;
+    text-decoration: none;
+}
+header img{
+   right: 200px;
+   width: 200px;
+   border-radius: 50%;
+   border: 3px solid #0A63BC;
+   box-shadow: 6px 2px 6px 2px black;
+   margin-top: 20px;
+}
+.centerimg {
+    text-align: center;
+    background-image: url(imagens/fundao.jpg);
+    margin-left: 30px;
+    margin-right: 30px;
+    padding-bottom: 15px;
+    border: black solid 5px;
+    
+}
+h1 {
+    color: white;
+    text-align: center;
+    font-size: 50px;
+    padding-top: 1 0px;
+}
+h2 {
+    text-align: center;
+    font-size: 30px;
+}
+h3 {
+    font-size: 30px;
+}
+footer img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+footer {
+    display: flex;
+    justify-content: center;
+    min-width: 320px;
+}
+footer a {
+    margin: 30px;
+    text-align: center;
+
+}
+footer p {
+    margin-top: 5px;
+}
+.conteiner {
+    padding: 0px 15px;
+}
+#menu ul {
+    
+    margin-left: 30%;
+    margin-right: 30%;
+    padding-left: 2px;
+    border-style: solid;
+    border-width: 5px;
+    border-radius: 50px;
+    box-shadow: 5px 5px 5px 5px black;
+    text-align: center;
+    color: #0A63BC;
+}
+#menu ul li {
+    display: inline;    
+}
+#menu ul li a {
+    color: white;
+    padding: 20px;
+    display: inline-block;
+    text-decoration: none;
+    
+}
+#menu ul li a:hover {
+    background-color: #0a58b1;
+    border-radius: 20%;
+}
+.prace {
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 60px;
+    font-size: 20px;
+    border: solid black 5px;
+    margin-left: 30px;
+    margin-right: 30px;
+    color: black;
+    background-color: rgb(240, 227, 227);
+}
+#form {
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    border: solid black;
+    margin-right: 55%;
+    margin-left: 41%;
+    font-style: italic ;
+    border-radius: 10%;
+    box-shadow: 5px 5px 5px 5px black;
+    min-width: 320px;
+}
+#titu {
+    font-size: 40px;
+}
+#meunu {
+    max-width: 960px;
+    min-width: 320px;
+    margin: auto;
+}
